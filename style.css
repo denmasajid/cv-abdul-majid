@@ -142,7 +142,11 @@ h1 {
   margin-bottom: 28px;
 }
 
-.hero-actions,
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .contact-strip {
   display: flex;
   flex-wrap: wrap;
