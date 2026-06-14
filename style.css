@@ -592,37 +592,4 @@ footer {
   }
 }
 
-.premium-table table {
-    width: 100%;
-}
 
-.premium-table th, 
-.premium-table td {
-    white-space: normal !important; 
-    word-break: break-word;        
-}
-
-@media (max-width: 768px) {
-    
-    .premium-table th:last-child,
-    .premium-table td:last-child {
-        min-width: 220px;
-    }
-}
-table {
-    width: 100% !important;
-}
-
-table th, 
-table td {
-    white-space: normal !important; 
-    word-break: break-word;        
-}
-
-@media (max-width: 768px) {
-    
-    table th:last-child,
-    table td:last-child {
-        min-width: 200px;
-    }
-}
